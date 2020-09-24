@@ -1,8 +1,4 @@
 // Assignment Code
-
-//console.log("hello");
-
-//variables
 var upperChar = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
 var lowerChar = "abcdefghijklmnopqrstuvwxyz";
 const symbols = "!#[]$%&'()*+,-./:;<=>?@^`{|}]~";
@@ -27,7 +23,7 @@ function writePassword() {
     return writePassword();
   }
 
-  //Confirms guide user through password choices
+ 
   var includeUppercase = confirm("Would you like to use uppercase Letters?");
 
   var includeLowercase = confirm("Would you like to use lowercase letters?");
@@ -47,7 +43,6 @@ function writePassword() {
     return writePassword();
   }
 
-  //Chooses characters
   if (includeUppercase) {
     possibleCharacters += upperChar;
   }
@@ -64,7 +59,7 @@ function writePassword() {
     possibleCharacters += symbols;
   }
 
-  //Final loop that outputs password
+
   for (var i = 0; i < characterAmount; i++) {
     password +=
       possibleCharacters[Math.floor(Math.random() * possibleCharacters.length)];
