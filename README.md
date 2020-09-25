@@ -7,4 +7,5 @@
 <p>JavaScript</p>
 
 <h3>The Website</h3>
-<p>Here is the link to the <a href ="https://mcgeevee.github.io/Password-Generator/" >website</a>.
+<p>Here is the link to the <a href ="https://mcgeevee.github.io/Password-Generator/" >website</a>
+<img src ="PasswordPic.png"> 
