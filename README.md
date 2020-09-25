@@ -8,7 +8,7 @@
 
 <h3>The Website</h3>
 <p>Here is the link to the <a href ="https://mcgeevee.github.io/Password-Generator/" >website</a>
-<img src="PasswordPic.jpeg">
+<img src="./images/PasswordPic.jpeg">
 
 <h3>License</h3>
 <p><a href="https://choosealicense.com/licenses/mit/#">MIT</a> License</p>
